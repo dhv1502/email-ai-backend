@@ -14,7 +14,7 @@ import {
 } from './src/gmail.js';
 
 import { classifyWithKNN } from './src/embeddingStore.js';
-import { classifyEmail } from './src/classifier.js';
+import { classifyEmailLLM as classifyEmail } from './src/classifier.js';
 import { summarizeEmail } from './src/summarizer.js';
 
 import {
